@@ -1,0 +1,57 @@
+/* work sans from google sans */
+
+/* shared styles */
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1365px;
+}
+/* header styles */
+/* nav section */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 120px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-container h3{
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.span{
+    color: #FF42A5;
+}
+.nav-item-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.follow{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+}
+.nav-item-container a img{
+    width: 20px;
+    object-fit: cover;
+}
+.nav-item-container a:hover{
+    color: #FF42A5;
+}
+
