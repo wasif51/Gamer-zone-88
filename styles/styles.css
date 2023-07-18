@@ -75,7 +75,7 @@ button{
     font-size: 2.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding-top: 130px;
+    padding-top: 150px;
     padding-left: 100px;
 }
 .banner-goat{
@@ -96,14 +96,14 @@ button{
     text-transform: lowercase;
     display: inline-flex;
     align-items: flex-start;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 100px;
     gap: 10px;
 }
 .btn{
     display: flex;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 100px;
     gap: 15px;
     cursor: pointer;
@@ -133,8 +133,101 @@ button{
     font-weight: 600;
     text-transform: uppercase;
 }
+.banner-img{
+    margin-right: 30px;
+}
+/* main part */
+.game-section{
+    margin-top: 100px;
+}
+.games-container{
+    text-align: center;
+    
+}
+.game-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.game-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.card-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+
+}
+.card{
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 450px;
+    border-radius: 16px;
+}
+.card-img{
+    max-width: 200px;
+    border-radius: 16px;
+}
+.card-description{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+/* play section */
+.play-container{
+    margin-top: 150px;
+    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.play-content{
+    padding-left: 120px;
+    padding-bottom: 250px;
 
 
+}
+.play-title{
+    max-width: 341px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-span{
+    color: #F948B2;
+}
+.play-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 350px;
+    padding-top: 15px;
+}
+.play-img img{
+    height: 80%;
+    width: 550px;
+    margin-right: 50px;
+}
+.small-img img{
+    width: 40%;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+}
 
 
 
