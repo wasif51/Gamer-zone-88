@@ -469,27 +469,35 @@ button{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
-        padding-left: 40px;
+        padding-left: 30px;
         padding-top: 40px;
     }
     .footer-icon{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        padding-left: 60px;
+        padding-left: 50px;
         padding-top: 40px;
     }
     .footer-list-2{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 10px;
-        padding-left: 60px;
+        gap: 15px;
+        padding-left: 55px;
         padding-top: 40px;
     }
     .footer-container p{
         max-width: 200px;
         padding-left: 100px;
         padding-top: 40px;
-        padding-bottom: 70px;
+        padding-bottom: 65px;
+    }
+}
+
+
+/* media query for tablet */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav-container{
+        flex-direction: column;
     }
 }
