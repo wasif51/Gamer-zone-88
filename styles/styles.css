@@ -179,6 +179,9 @@ button{
     max-width: 200px;
     border-radius: 16px;
 }
+.card-img:hover{
+    border: 2px solid #FF42A5;
+}
 .card-description{
     color: #534C64;
     font-size: 16px;
