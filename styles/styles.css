@@ -397,7 +397,7 @@ button{
         font-size: 12px;
     }
     .card-container, .card{
-        padding: 25px 0px 0px 70px;
+        padding: 25px 0px 0px 50px;
         margin: 0px;
     }
     .card-description{
@@ -476,19 +476,19 @@ button{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        padding-left: 70px;
+        padding-left: 60px;
         padding-top: 40px;
     }
     .footer-list-2{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
-        padding-left: 70px;
+        padding-left: 60px;
         padding-top: 40px;
     }
     .footer-container p{
         max-width: 200px;
-        padding-left: 130px;
+        padding-left: 100px;
         padding-top: 40px;
         padding-bottom: 70px;
     }
