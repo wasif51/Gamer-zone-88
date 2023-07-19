@@ -53,8 +53,8 @@
     color: #FF42A5;
 }
 button{
-    border: none;
     cursor: pointer;
+    border: none;
 }
 /* banner section */
 .banner-container{
