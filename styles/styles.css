@@ -67,8 +67,6 @@ button{
     background-image: url('../images/Group\ 14.png');
     width: 700px;
     height: 680px;
-
-    
 }
 .banner-title{
     color: #0B0223;
@@ -136,7 +134,7 @@ button{
 .banner-img{
     margin-right: 30px;
 }
-/* main part */
+/* main part styles */
 .game-section{
     margin-top: 100px;
 }
@@ -199,8 +197,6 @@ button{
 .play-content{
     padding-left: 120px;
     padding-bottom: 250px;
-
-
 }
 .play-title{
     max-width: 341px;
@@ -236,7 +232,6 @@ button{
     height: 250px;
     margin-top: -100px;
     margin-left: 140px;
-    
 }
 .button-section img{
     width: 13%;
@@ -260,9 +255,8 @@ button{
     border: 1px solid #FF42A5;
     color: #FF42A5;
 }
-/* footer section */
+/* footer styles */
 .footer-container{
-    height: 400px;
     background-color:#0B0223;
 }
 .footer-logo{
@@ -322,6 +316,7 @@ button{
     font-size: 16px;
     font-weight: 500;
     padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 
@@ -333,7 +328,7 @@ button{
 
     /* media query */
 @media screen and (max-width:576px) {
-    .nav-container{
+    .nav-container, .card-container{
         flex-direction: column;
     }
     .nav-container, .logo-container{
@@ -359,5 +354,142 @@ button{
     .banner-container{
         flex-direction: column-reverse;
     }
+    .banner-img{
+        padding-top: 50px;
+        width: 80%;
+        padding-left: 20px;
+    }
+    .banner-img img{
+        height: auto;
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .banner-title{
+        margin: 0px;
+        padding: 0px;
+    }
+    .banner-goat{
+        padding: 0px;
+    }
+    .banner-description{
+        padding: 0px;
+        display: flex;
+        padding-left: 50px;
+    }
+    .btn{
+        padding: 10px 0px 0px 50px;
+    }
+    .game-section{
+        margin-top: 50px;
+    }
+    .games-container{
+        padding-left: 10px;
+    }
+    .game-title{
+        font-size: 30px;
+    }
+    .game-description{
+        font-size: 12px;
+    }
+    .card-container, .card{
+        padding: 25px 0px 0px 70px;
+        margin: 0px;
+    }
+    .card-description{
+        padding-top: 2px;
+    }
+    .play-container{
+        margin-top: 40px;
+       display: flex;
+       flex-direction: column;
+    }
+    .play-content{
+        padding: 0px;
+        margin: 0px;
+    }
+    .play-title{
+        height: auto;
+        color: #0B0223;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .play-description{
+        color: #534C64;
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .play-img{
+        width: 80%;
+        margin-top: -50px;
+        margin-left: 40px;
+    }
+    .play-img img{
+        width: 90%;
+        height: auto;
+    }
+    .play-img .small-img{
+        width: 40%;
+        position: relative;
+        left: 50px;
+        top: 120px;
+    }
+    .small-img img{
+        width: 100%;
 
+    }
+    .button-section{
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .common-btn{
+        font-size: 12px;
+    }
+    .btn-five{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+    }
+    .btn-four{
+        margin-left: -0px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding-left: 70px;
+        padding-top: 40px;
+    }
+    .footer-list-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        padding-left: 70px;
+        padding-top: 40px;
+    }
+    .footer-container p{
+        max-width: 200px;
+        padding-left: 130px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
 }
