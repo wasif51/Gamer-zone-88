@@ -257,7 +257,69 @@ button{
     border: 1px solid #FF42A5;
     color: #FF42A5;
 }
-
+/* footer section */
+.footer-container{
+    height: 400px;
+    background-color:#0B0223;
+}
+.footer-logo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+.list-items{
+    color: #FFF;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.footer-list-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+.footer-list-2 li{
+    list-style: none;
+}
+.list-items-2 small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-container p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
 
 
 
